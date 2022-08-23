@@ -1,0 +1,61 @@
+let N = 10;
+
+let months = {
+    "1": "January",
+    "2": "February",
+    "3": "March",
+    "4": "April",
+    "5": "May",
+    "6": "June",
+    "7": "July",
+    "8": "August",
+    "9": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December", 
+      //TODO: Complete os espaços em branco com uma possível solução para o desafio
+  };
+
+switch (month) 
+{
+    case '1':
+        month = months[1];
+    break;
+    case '2':
+        month = months[2];
+    break;
+    case '3':
+        month = months[3];
+    break;
+    case '4':
+        month = months[4];
+    break;
+    case '5':
+        month = months[5];
+    break;
+    case '6':
+        month = months[6];
+    break;
+    case '7':
+        month = months[7];
+    break;
+    case '8':
+        month = months[8];
+    break;
+    case '9':
+        month = months[9];
+    break;
+    case '10':
+        month = months[10];
+    break;
+    case '11':
+        month = months[11];
+    break;
+    case '12':
+        month = months[12];
+    break;
+    default:
+      console.log("`Sorry, but this month doesn't exist!`");
+}
+
+console.log(month);
